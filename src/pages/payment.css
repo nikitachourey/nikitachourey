@@ -1,0 +1,13 @@
+.a{
+    outline:1 px;
+    border-radius: 0%;
+    border: px solid rgb(204, 200, 200);
+    outline: hsl(0, 6%, 80%) solid 1px;
+    margin: 50px; 
+    padding: 50px;
+    text-align: left;
+    line-height: 0.6;
+    max-width: 50%;
+    border-radius: 10px;
+    height: 100px;
+     }

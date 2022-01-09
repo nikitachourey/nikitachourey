@@ -1,0 +1,72 @@
+.product-img{
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    padding: px ;
+    background: rgb(179, 177, 177);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .value-button:hover {
+    cursor: pointer;
+  }
+  
+  form #decrease {
+    margin-right: 1px;
+    border-radius: 0 8px  8px 0;
+  
+  
+  }
+  
+  form #increase {
+    margin-left: 1px;
+    border-radius: 0 8px 8px 0;
+  
+  }
+
+  
+  
+  /* form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+  } */
+  
+  input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom:1 px solid #ddd;
+    margin: px;
+    width: 40px;
+    height: 30px;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  

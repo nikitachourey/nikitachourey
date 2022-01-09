@@ -1,0 +1,53 @@
+ /* input[type=text], input[type=password] {
+     
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+  
+    
+    
+    
+    
+  } 
+  
+  button {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 25%;
+    align-items: center;
+    float: inline-end;
+   
+  } */
+/*   
+  .container {
+    padding: 10px;
+    margin-bottom:5px;
+  } */
+  
+  /* .content{
+      height: 450px;
+      background-color: antiquewhite; 
+      align-items: right; 
+      width: 550px;
+      justify-items:right;
+      margin-left: 400px ;
+    } */
+
+  span{
+    margin: 15px;
+  }
+
+
+  .content{
+    height: 400vh;
+     /* overflow-y: scroll;  */
+  }
+
+
+

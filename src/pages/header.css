@@ -1,0 +1,121 @@
+.header{
+display:block;
+background-color: rgb(1, 3, 9);
+height: 80px;
+
+}
+
+.header {
+  overflow: hidden;
+  background-color: #0c0101;
+  padding: 20px 10px;
+}
+
+.header a.logo {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  float:left;
+}
+
+.header a {
+  float: left;
+  color: rgb(212, 221, 221);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px; 
+  line-height: 25px;
+    border-radius: 4px;
+    font-family:'Times New Roman', serif;
+}
+/* .header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+ .header a.active {
+  background-color: rgb(27, 143, 131);
+    color: white; */
+/* }  */
+.searchbar   input[type=text]{
+  float:left;
+  display: block;
+  text-align: left;
+  width: 80%;
+  margin-top: 5px;
+  padding: 5px;
+  height: 27px;
+    
+    
+}
+
+
+.searchbar input[type=text] {
+  border: 2px solid rgb(232, 240, 240);
+  float:right;
+  margin: 2px;
+  padding: 2px;
+    
+}
+
+ .searchbar button[type=submit]{
+  float:right;
+  margin: 2px;
+  padding: 2px;
+  background-color: rgb(224, 230, 230);
+  border: 2px solid rgb(232, 232, 232);
+  font-family:'Times New Roman', serif;
+  height: 27px;
+
+} 
+/* .catalog{
+  display: none;
+  position: absolute;
+  background-color: brown;
+  min-width: 100px;
+ box-shadow:2px 8px 16px ;
+padding: 5px 8px;
+} 
+
+  .catalog.hover.dropdown{
+  display: block;
+  font-size: 2px;
+  display: none;
+  position: absolute;
+  background-color: brown;
+  min-width: 100px;
+ box-shadow:2px 8px 16px ;
+padding: 5px 8px;
+}  
+  */
+  
+  .dropdown-link {
+    text-decoration: none;
+    color: rgb(67, 211, 209);
+    font-size: 10px;
+    padding: 15px;
+    display:inline-block;
+    font-family:  'Times New Roman', Times, serif;
+    text-decoration-color: rgb(48, 220, 197);
+    
+  }
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {display: inline-block;}
+  ul li:hover {background: rgb(0, 0, 0);}
+  ul li:hover ul {display: block;}
+  ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  ul li ul li { 
+    background: rgb(255, 252, 252); 
+    display: block; 
+  }
+  ul li ul li a {display:block !important;} 
+  ul li ul li:hover {background: rgb(92, 205, 213);}
